@@ -1,9 +1,9 @@
 .showcase {
     height: 723px;
     position: relative;
-  background:  url('../../assets/imgs/bg2.jpg')no-repeat 20% 50%;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  background:  url('../../assets/imgs/bg2.jpg')no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .showcase__bottomDivider {
@@ -16,17 +16,47 @@
 
 .showcase__container {
     padding: 32px 16px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+
 }
+
 .showcase__logo-wrapper {
     width: 70px;
     height: 20px;
 }
 
-
-.test {
-    color: white;
+.showcase__content {
+    display: flex;
+    margin: auto 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.showcase__content--header {
+    font-size: 44px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 108%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.showcase__content--lead {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.showcase__content--btn {
+    height: 61px;
+}
 
 
 /* @media (min-width: 640px) { ... }

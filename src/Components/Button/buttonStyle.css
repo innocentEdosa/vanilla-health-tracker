@@ -4,7 +4,9 @@
     background-color: #fff;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
+
 
 .btn:hover, .btn:focus, .btn:active {
     outline: none;

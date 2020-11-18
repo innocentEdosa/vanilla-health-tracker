@@ -1,0 +1,17 @@
+.budgetSummary {
+    background-color: #fff;
+}
+
+.budgetSummary__container {
+    padding: 40px 16px;
+}
+
+.budgetSummary__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.budgetSummary__form-checkbox--wrapper {
+    padding-top: 24px;
+}
+

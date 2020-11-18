@@ -22,3 +22,9 @@
   font-size: 22px;
   line-height: 33px;
 }
+
+@media (min-width: 1024px) {
+  .btn__cta {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,34 @@
+.select__wrapper {
+  width: 100%;
+}
+.select__label {
+  display: block;
+  color: #333333;
+  color: var(--neutral-black);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
+
+.select__select {
+  width: 100%;
+  border: none;
+  background: #f2f2f2;
+  background: var(--neutral-grey);
+  border-radius: 8px;
+  height: 40px;
+  padding: 0px 16px;
+  appearance: none;
+  background: url("../../../assets/imgs/dropdown.svg") right 16px top 50%
+      no-repeat,
+    #f2f2f2;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+outline-color: #174254;
+}

@@ -2,6 +2,10 @@
 
 :root {
     --primary-text-color: #7D4040;
+    --primary-text-color-light: #CEB6B6;
+
+    --neutral-black: #333333;
+    --neutral-grey: #F2F2F2;
 }
 body {
     font-family: 'Poppins', sans-serif;

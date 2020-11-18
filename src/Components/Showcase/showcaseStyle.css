@@ -8,10 +8,11 @@
 
 .showcase__bottomDivider {
   position: absolute;
-  margin-bottom: -1px;
   bottom: 0;
   width: 100%;
+  margin-bottom: -4px;
   color: #fff;
+  /* background: red; */
 }
 
 .showcase__container {
@@ -25,6 +26,17 @@
   width: 70px;
   height: 20px;
 }
+
+.showcase__logo-sub {
+  color: #CEB6B6;
+  color: var(--primary-text-color-light);
+  font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+
 
 .showcase__content {
   display: flex;
@@ -104,5 +116,6 @@
 
       .showcase__content--btn {
         height: 52px;
+        width: 318px;
       }
  } 

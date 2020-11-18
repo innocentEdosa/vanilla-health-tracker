@@ -120,6 +120,15 @@
     background-color: #F0F0EE;
 }
 
+.dataDisplay__showcase--bottomLead {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 149%;
+color: #162227;
+}
+
 @media (min-width: 768px) {
   .dataDisplay__container {
     padding-top: 57px;

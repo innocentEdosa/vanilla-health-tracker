@@ -24,6 +24,10 @@ BHCPF
         <li> NPHCDA: National Primary Health Care Development Agency</li>
         <li>FMoH: Federal Ministry of Health</li>
         </ul>
+
+        <p class="dataDisplay__showcase--bottomLead">
+        The N35.03bn BhHCPF is part of the N6327.bn which the federal govrnment has budgeted to spend on health sector in 2021
+        </p>
         </div>
 
 

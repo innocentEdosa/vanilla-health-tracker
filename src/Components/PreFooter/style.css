@@ -1,0 +1,35 @@
+.prefooter__wrapper {
+    background: rgba(220, 203, 203, 0.13);
+
+}
+
+.prefooter__container {
+    padding: 40px 16px;
+}
+
+.prefooter__content--leadMajor {
+    font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 31px;
+color: #7D4040;
+margin-bottom: 16px;
+}
+
+.prefooter__content--top {
+    margin-bottom: 42px;
+}
+
+.prefooter__content--leadMinor {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.prefooter__content--bottom > img {
+    width: 100%;
+}

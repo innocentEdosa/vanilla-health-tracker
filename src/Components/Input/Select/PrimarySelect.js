@@ -11,12 +11,8 @@ const PrimarySelect = ({
         <label class="select__label" for=${id}>${label}</label>
         <select class="select__select"  name=${name} id=${id}>
     <option value="">--Please choose an option--</option>
-    <option selected value="dog">Dog</option>
-    <option value="cat">Cat</option>
-    <option value="hamster">Hamster</option>
-    <option value="parrot">Parrot</option>
-    <option value="spider">Spider</option>
-    <option value="goldfish">Goldfish</option>
+    <option selected value="dog">2019</option>
+    <option value="cat">2020</option>
 </select>
 
     </div> `;

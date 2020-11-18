@@ -1,0 +1,49 @@
+.radio__label {
+  display: flex;
+  align-items: center;
+}
+
+.radio__label--text {
+  font-family: Ubuntu, Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333;
+  color: var(--neutral-black)
+}
+
+.radio__input {
+  display: none;
+}
+
+.radio__checkMark {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #fff;
+  border: 2px solid #174254;
+  margin-right: 8px;
+}
+
+.radio__checkMark::after {
+  content: "";
+  display: table;
+  background-color: #174254;
+  border-radius: 50%;
+  /* top: 50%;
+    left: 50%;
+    transform: translate(-59%, -50%); */
+  height: 18px;
+  width: 18px;
+  transform: scale(0);
+  transition: 200ms ease-in-out 0s;
+}
+
+.radio__input:checked ~ .radio__checkMark::after {
+  transform: scale(1);
+}

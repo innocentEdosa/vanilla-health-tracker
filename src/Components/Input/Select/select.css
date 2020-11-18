@@ -22,6 +22,8 @@
   height: 40px;
   padding: 0px 16px;
   appearance: none;
+  -moz-appearance: none;
+-webkit-appearance: none;
   background: url("../../../assets/imgs/dropdown.svg") right 16px top 50%
       no-repeat,
     #f2f2f2;

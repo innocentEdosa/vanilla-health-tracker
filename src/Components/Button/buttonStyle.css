@@ -1,22 +1,24 @@
 .btn {
-    border: none;
-    border-radius: 8px;
-    background-color: #fff;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
 }
 
-
-.btn:hover, .btn:focus, .btn:active {
-    outline: none;
+.btn:hover,
+.btn:focus,
+.btn:active {
+  outline: none;
 }
 
 .btn__cta {
-    color: #174254;
-    font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 33px;
+  color: #7d4040;
+  color: var(--primary-text-color);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
 }

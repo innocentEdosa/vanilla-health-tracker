@@ -48,14 +48,16 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {},
+            options: {
+              name: 'assets/[hash].[ext]',
+            },
           },
         ],
       },
-      {
-        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        use: ['svg-inline-loader'],
-    },
+    //   {
+    //     test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+    //     use: ['svg-inline-loader'],
+    // },
       {
         test: /\.(png|gif|jpeg|svg|woff|woff2|ttf|otf|eot)$/i,
         use: [

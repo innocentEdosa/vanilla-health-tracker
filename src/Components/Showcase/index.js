@@ -1,5 +1,6 @@
 import "./showcaseStyle.css";
 import Button from "../Button";
+import svgFile from '../../assets/imgs/strip1.svg';
 
 const ShowCase = () => {
   return `<div class="showcase">
@@ -26,7 +27,7 @@ const ShowCase = () => {
 
     </div>
     <div>
-    <img class="showcase__bottomDivider" src=${"../../assets/imgs/strip1.svg"} />
+    <img class="showcase__bottomDivider" src=${svgFile} />
     </div>
     </div>`;
 };

@@ -1,6 +1,8 @@
 import './budgetSummaryStyle.css';
 import PrimarySelect from '../Input/Select/PrimarySelect';
 import RadioButton from '../Input/Radio';
+import BudgetDataDisplay from './budgetDataDisplay';
+
 
 const BudgetSummary = () => {
     return `<div class="budgetSummary">
@@ -13,20 +15,21 @@ const BudgetSummary = () => {
    </div>
    <div class="radio__wrapper radio__wrapper--1">
    ${RadioButton({
-       checked: true,
-       label: "Budgeted Expenditure"
+     checked: true,
+     label: "Budgeted Expenditure",
    })}
    </div>
    <div class="radio__wrapper">
    ${RadioButton({
-       label: "Actual Expenditure"
+     label: "Actual Expenditure",
    })}
    </div>
    </form>
+   ${BudgetDataDisplay()}
    
    </div>
 
-    </div>`
+    </div>`;
 };
 
 export default BudgetSummary;

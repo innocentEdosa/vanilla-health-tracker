@@ -21,7 +21,7 @@ module.exports = {
     path: PATH.resolve(__dirname, 'dist'),
     filename: '[name]-bundle.js',
     chunkFilename: '[name]-bundle.js',
-    publicPath: '/',
+    // publicPath: '/',
   },
   module: {
     rules: [
@@ -48,9 +48,9 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: 'assets/[hash].[ext]',
-            },
+            // options: {
+            //   name: 'assets/[hash].[ext]',
+            // },
           },
         ],
       },

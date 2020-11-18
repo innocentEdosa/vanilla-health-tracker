@@ -47,3 +47,28 @@
 .radio__input:checked ~ .radio__checkMark::after {
   transform: scale(1);
 }
+
+@media (min-width: 768px) {
+    .radio__checkMark {
+        height: 24px;
+        width: 24px;
+      }
+      
+      .radio__checkMark::after {
+        height: 14px;
+        width: 14px;
+      }
+      
+}
+@media (min-width: 1024px) {
+    .radio__checkMark {
+        height: 20px;
+        width: 20px;
+      }
+      
+      .radio__checkMark::after {
+        height: 10px;
+        width: 10px;
+      }
+      
+}

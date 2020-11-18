@@ -1,6 +1,7 @@
 .showcase {
   height: 723px;
   position: relative;
+  background: #174254;
   background: url("../../assets/imgs/bg2.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;

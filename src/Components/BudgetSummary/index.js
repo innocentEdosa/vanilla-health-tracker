@@ -28,6 +28,12 @@ const BudgetSummary = () => {
    ${BudgetDataDisplay()}
    
    </div>
+   <div class="budgetSummary__strip">
+   <svg width="" height="" viewBox="0 0 1280 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-3 0L1280 55H1271.04H-3V0Z" fill="currentColor"/>
+</svg>
+
+   </div>
 
     </div>`;
 };

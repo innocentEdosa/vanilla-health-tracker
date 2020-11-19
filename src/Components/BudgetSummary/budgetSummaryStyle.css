@@ -50,6 +50,12 @@
 }
 
 @media (min-width: 1024px) {
+
+    .budgetSummary {
+        height: 832px;
+        margin: 0 auto;
+    }
+
   .budgetSummary__form {
     width: 820px;
   }
@@ -300,6 +306,8 @@
 }
 
 @media (min-width: 1024px) {
+
+
   .dataDisplay__container {
     flex-direction: row;
   }

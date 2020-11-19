@@ -33,3 +33,38 @@ margin-bottom: 16px;
 .prefooter__content--bottom > img {
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .prefooter__content--bottom > img {
+        height: 427px;
+    } 
+
+}
+
+@media (min-width: 1024px) {
+    .prefooter__wrapper {
+        height: 527px;
+        display: flex;
+        align-items: center;
+    }
+    .prefooter__container {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .prefooter__content--top {
+        flex-basis: 50%;
+        padding-right: 32px;
+    }
+
+    .prefooter__content--bottom > img {
+        height: 287px;
+    } 
+
+
+    .prefooter__content--bottom {
+        flex-basis: 50%;
+    }
+}

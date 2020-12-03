@@ -14,10 +14,10 @@ const Footer = () => {
     </div>
 
     <div class="footer__section--top-links">
-    <a><img src=${twitter} /></a>
-    <a><img src=${facebook} /></a>
-    <a><img src=${instagram} /></a>
-    <a><img src=${linkedin} /></a>
+    <a target="_blank" rel="noopener" href=https://twitter.com/TrackaNG><img src=${twitter} /></a>
+    <a target="_blank" rel="noopener" href=https://www.facebook.com/trackanigeria><img src=${facebook} /></a>
+    <a target="_blank" rel="noopener" href=https://www.youtube.com/watch?v=kaBjWJvfy3Q><img src=${instagram} /></a>
+    <a target="_blank" rel="noopener" href=https://www.linkedin.com/company/budgit-nigeria><img src=${linkedin} /></a>
     </div>
     </div>
 

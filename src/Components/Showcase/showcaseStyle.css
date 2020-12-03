@@ -2,7 +2,7 @@
   height: 723px;
   position: relative;
   background: #174254;
-  background: url("../../assets/imgs/bg2.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_30/v1606985852/Healt%20tracka%20budgit/Hero_Desktop.png") no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -105,6 +105,8 @@ line-height: 21px;
 
 @media (min-width: 1024px) { 
 
+
+
     .showcase__container {
         padding: 32px 0px;
         width: 75%;
@@ -118,5 +120,13 @@ line-height: 21px;
       .showcase__content--btn {
         height: 52px;
         width: 318px;
+      }
+ } 
+@media (min-width: 1280px) { 
+  .showcase  {
+    background-position: top -200px right 0px;
+  }
+    .showcase__container {
+        width: 1200px;
       }
  } 

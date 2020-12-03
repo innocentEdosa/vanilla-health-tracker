@@ -26,7 +26,7 @@ BHCPF
         </ul>
 
         <p class="dataDisplay__showcase--bottomLead">
-        The N35.03bn BhHCPF is part of the N6327.bn which the federal govrnment has budgeted to spend on health sector in 2021
+        The N35.03bn for Basic Health Care Provisions Fund (BHCPF) is part of the N632bn budgeted for the Health Sector in 2021 by the Federal Government.
         </p>
         </div>
 
@@ -45,7 +45,7 @@ BHCPF
         Basic minimum package of health care services
         </h6>
         <p class="section1__content--leadMinor">
-        Free Maternal and Child health Care, facilitated referrals for Cardiovascular and diabetic disease
+        Free Maternal and Child Health Care, facilitated referrals for Cardiovascular and diabetic disease.
         </p>
         </div>
         </div>

@@ -1,0 +1,38 @@
+.link {
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:focus,
+  .link:active {
+    outline: none;
+  }
+  
+  .link__cta {
+    color: #601A46;
+    color: var(--primary-text-color);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .link__cta {
+      font-size: 16px;
+    }
+  }
+  

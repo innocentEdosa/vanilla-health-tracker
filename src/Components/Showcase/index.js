@@ -1,5 +1,6 @@
 import "./showcaseStyle.css";
 import Button from "../Button";
+import Link from '../PrimaryLink';
 
 const ShowCase = () => {
   return `<div class="showcase">
@@ -22,7 +23,7 @@ const ShowCase = () => {
     <h6 class="showcase__content--header">The value of life is priceless </h6>
     <p class="showcase__content--lead"> How is the Federal Government ensuring quality health for Nigerian citizens? View and track government allocations to the Health Sector.</p>
     <div class="showcase__content--btn">
-    ${Button("Track Health Projects")}
+    ${Link("Track Health Projects", "https://tracka.ng/#/home")}
     </div>
     </div>
 

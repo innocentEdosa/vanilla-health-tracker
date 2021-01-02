@@ -10,7 +10,7 @@ const table = () => `<div>I am a table</div>`
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Dashboard");
+        this.setTitle("Health Tracka");
     }
 
     async getHtml() {

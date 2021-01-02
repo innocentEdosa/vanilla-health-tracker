@@ -2,7 +2,7 @@
   height: 723px;
   position: relative;
   background: #174254;
-  background: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_30/v1606985852/Healt%20tracka%20budgit/Hero_Desktop.png") no-repeat;
+  background: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_20/v1606985852/Healt%20tracka%20budgit/Hero_Desktop.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -76,6 +76,8 @@ line-height: 21px;
 @media (min-width: 768px) {
   .showcase {
     height: 768px;
+    background: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_20/v1606985852/Healt%20tracka%20budgit/Hero_Desktop.jpg") no-repeat;
+    background-size: cover;
   }
 
   .showcase__container {
@@ -105,7 +107,13 @@ line-height: 21px;
 
 @media (min-width: 1024px) { 
 
+  /* .showcase {
+    background: #174254;
+    background-size: cover;
+    overflow: hidden;
+    background: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_20/v1606985852/Healt%20tracka%20budgit/Hero_Desktop.jpg") no-repeat;
 
+  } */
 
     .showcase__container {
         padding: 32px 0px;
